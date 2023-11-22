@@ -43,8 +43,7 @@ header {
 
 .navlist {
   display: flex;
-  justify-content: space-between;
-  gap: 2.5em;
+   gap: 2.5em;
 }
 
 .navlist li a {
@@ -52,6 +51,7 @@ header {
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease;
+  justify-content: space-between;
 }
 
 .navlist li a:hover {
